@@ -1,0 +1,1169 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=latin-ext');
+/* 
+Theme Name: Pias-Mal
+Theme URI: https://egddesign.com
+Description: Szablon dla pias-mal.com.pl
+Template: responsive-mobile
+Version: 1.0.0
+Author: EGDDesign
+Author URI: https://egddesign.com
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: responsive-mobile-child
+Responsywny szablon Pias - Mal, Copyright (C) 2017 EGDDesign
+*/
+/*--------------------------------------------------------------
+Import
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1.0 - Body / Contener - full
+--------------------------------------------------------------*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+body .container-full-width,
+body #footer {
+  /*max-width: 1366px;*/
+  max-width: 100%;
+}
+footer.post-data {
+  display: none;
+}
+/*--------------------------------------------------------------
+2.0 - Header
+--------------------------------------------------------------*/
+#header {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #000000;
+  /*--------------------------------------------------------------
+2.2 - Header / LogoTyp
+--------------------------------------------------------------*/
+}
+#header #main-menu-container {
+  background-color: #b60105;
+  border-bottom: 2px solid #fff;
+  height: 44px;
+}
+#header #main-menu-container #main-menu {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#header #main-menu-container #main-menu #main-navigation .main-nav {
+  /*--------------------------------------------------------------
+2.1 - Header / SubMenu
+--------------------------------------------------------------*/
+}
+#header #main-menu-container #main-menu #main-navigation .main-nav ul li {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+#header #main-menu-container #main-menu #main-navigation .main-nav ul li > ul {
+  background-color: #b60105;
+  width: 400px;
+}
+#header #main-menu-container #main-menu #main-navigation .main-nav ul li > ul li {
+  padding: 10px 10px;
+}
+#header #main-menu-container #main-menu #main-navigation .main-nav ul li > ul li a {
+  padding: 10px 10px;
+}
+#header #main-menu-container #main-menu #main-navigation .main-nav ul li > ul li#menu-item-23 a:before {
+  background-image: url(images/uslugi-wulkanizacyjne.png);
+  background-size: 100% 100%;
+  /*background-position: center center;*/
+  display: inline-block;
+  width: 30px;
+  height: 26px;
+  content: "";
+  float: left;
+  margin: 10px;
+}
+#header #main-menu-container #main-menu #main-navigation .main-nav ul li > ul li#menu-item-26 a:before {
+  background-image: url(images/lakiernia-proszkowa.png);
+  background-size: 100% 100%;
+  /*background-position: center center;*/
+  display: inline-block;
+  width: 30px;
+  height: 31px;
+  content: "";
+  float: left;
+  margin: 10px;
+}
+#header #main-menu-container #main-menu #main-navigation .main-nav ul li > ul li#menu-item-25 a:before {
+  background-image: url(images/renowacja-felg.png);
+  background-size: 100% 100%;
+  /*background-position: center center;*/
+  display: inline-block;
+  width: 30px;
+  height: 31px;
+  content: "";
+  float: left;
+  margin: 10px;
+}
+#header #main-menu-container #main-menu #main-navigation .main-nav ul li > ul li#menu-item-24 a:before {
+  background-image: url(images/piaskowanie-szkielkowanie.png);
+  background-size: 100% 100%;
+  /*background-position: center center;*/
+  display: inline-block;
+  width: 30px;
+  height: 28px;
+  content: "";
+  float: left;
+  margin: 10px;
+}
+#header #main-menu-container #main-menu #main-navigation .main-nav ul li a {
+  color: #ffffff;
+  /*margin: 20px;*/
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 600;
+  line-height: 2.5em;
+  margin: 0px;
+  padding: 13px 4.03em 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+#header #main-menu-container #main-menu #main-navigation .main-nav ul li.current_page_item,
+#header #main-menu-container #main-menu #main-navigation .main-nav ul li.current-menu-item,
+#header #main-menu-container #main-menu #main-navigation .main-nav ul li.current-menu-ancestor {
+  background-color: #000;
+  color: #fff;
+  border-bottom: 2px solid #000;
+}
+#header #main-menu-container #main-menu #main-navigation .main-nav ul li:hover {
+  background-color: #000;
+  color: #fff;
+  border-bottom: 2px solid #000;
+}
+#header #main-menu-container #main-menu #main-navigation .main-nav ul li a:hover {
+  color: #fff;
+}
+#header .container .header-row #site-branding {
+  width: 100%;
+}
+#header .container .header-row #site-branding img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/*--------------------------------------------------------------
+2.3 - Header / Slider
+--------------------------------------------------------------*/
+.blok-slider {
+  border-top: 2px solid #b60105;
+  border-bottom: 2px solid #b60105;
+  /* jssor slider loading skin spin css */
+}
+.blok-slider .jssorl-009-spin img {
+  animation-name: jssorl-009-spin;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes jssorl-009-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.blok-slider .jssora061 {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+}
+.blok-slider .jssora061 .a {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 360;
+  stroke-linecap: round;
+}
+.blok-slider .jssora061:hover {
+  opacity: .8;
+}
+.blok-slider .jssora061.jssora061dn {
+  opacity: .5;
+}
+.blok-slider .jssora061.jssora061ds {
+  opacity: .3;
+  pointer-events: none;
+}
+.blok-slider .slider-ok {
+  position: absolute;
+  bottom: 150px;
+  left: 700px;
+  width: 1366px;
+  max-width: 450px;
+  height: 50px;
+  color: #FFF;
+  overflow: hidden;
+  cursor: default;
+  background: #af2e2d;
+  border: 3px solid #4e5b65;
+  text-transform: uppercase;
+}
+.blok-slider .slider-napis {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1366px;
+  height: 50px;
+}
+.blok-slider .slider-thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: verdana;
+  font-weight: normal;
+  line-height: 50px;
+  font-size: 16px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  max-width: 450px;
+  text-align: center;
+}
+.blok-slider .flex-direction-nav .flex-prev {
+  left: 100px;
+}
+.blok-slider .flex-direction-nav .flex-next {
+  right: 100px;
+}
+.blok-slider .flexslider:hover .flex-next {
+  opacity: 0.8;
+  right: 50px;
+}
+.blok-slider .flexslider:hover .flex-prev {
+  opacity: 0.8;
+  left: 50px;
+}
+.blok-slider .metaslider .caption-wrap {
+  bottom: 300px;
+  left: 700px;
+  width: 450px;
+  text-align: center;
+  background: #af2e2d;
+  border: 3px solid #4e5b65;
+  font-size: 2em;
+  text-transform: uppercase;
+  opacity: .9;
+}
+/*--------------------------------------------------------------
+3.1 - Strona Główna / Start 
+--------------------------------------------------------------*/
+#wrapper {
+  background: #e1e1e1;
+}
+#wrapper .content-area {
+  background: transparent;
+  padding: 0px;
+}
+#wrapper .content-area #main {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#wrapper .content-area #main #post-2 header {
+  display: none;
+}
+#wrapper .content-area #main #post-2 .post-entry .entry-content {
+  /*--------------------------------------------------------------
+3.1.1 - Strona Główna / Start / Nasze usługi
+--------------------------------------------------------------*/
+}
+#wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 {
+  min-width: 1140px;
+}
+#wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul {
+  padding: 0px;
+}
+#wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li {
+  width: 49%;
+  float: left;
+  background: #b60105;
+  border: 2px solid #fff;
+  min-height: 150px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.32);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.32);
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+  /*margin-left: 1%;
+									margin-right: 1%;*/
+}
+#wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li h2.widgettitle {
+  display: none;
+}
+#wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li .textwidget p {
+  margin: 0;
+}
+#wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li .textwidget a {
+  padding: 50px 10px 50px 100px;
+  color: #fff;
+  font-size: 2em;
+  text-transform: uppercase;
+  display: block;
+}
+#wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li .textwidget a:hover {
+  text-decoration: none;
+}
+#wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li:hover {
+  color: #fff;
+  background: #000;
+}
+#wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-2,
+#wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-7 {
+  margin-right: 1%;
+  margin-left: 0%;
+}
+#wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-6,
+#wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-3 {
+  margin-left: 1%;
+  margin-right: 0%;
+}
+#wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-2 .textwidget a:before {
+  background-image: url(images/lakiernia-proszkowa.png);
+  background-size: 100% 100%;
+  background-position: center center;
+  display: inline-block;
+  width: 89px;
+  height: 91px;
+  content: "";
+  float: left;
+  margin-right: 30px;
+}
+#wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-6 .textwidget a:before {
+  background-image: url(images/renowacja-felg.png);
+  background-size: 100% 100%;
+  background-position: center center;
+  display: inline-block;
+  width: 91px;
+  height: 93px;
+  content: "";
+  float: left;
+  margin-right: 30px;
+}
+#wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-7 .textwidget a:before {
+  background-image: url(images/piaskowanie-szkielkowanie.png);
+  background-size: 100% 100%;
+  background-position: center center;
+  display: inline-block;
+  width: 114px;
+  height: 108px;
+  content: "";
+  float: left;
+  margin-right: 30px;
+}
+#wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-3 .textwidget a:before {
+  background-image: url(images/uslugi-wulkanizacyjne.png);
+  background-size: 100% 100%;
+  background-position: center center;
+  display: inline-block;
+  width: 96px;
+  height: 82px;
+  content: "";
+  float: left;
+  margin-right: 30px;
+}
+/*--------------------------------------------------------------
+3.1.2 - Strona Główna / Start / O Firmie
+--------------------------------------------------------------*/
+#wrapper .content-area #post-2 .post-entry .entry-content h2 {
+  text-align: center;
+  color: #060606;
+  text-transform: uppercase;
+  font-size: 2em;
+  margin: 40px 0px;
+}
+#wrapper .content-area #post-2 .post-entry .entry-content p {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+#wrapper .content-area #post-2 .post-entry .entry-content a.wiecej {
+  display: block;
+  /*margin-left: auto;
+								margin-right: auto;*/
+  margin: 15px auto;
+  width: 150px;
+  text-align: center;
+  padding: 10px 15px;
+  background: #b60105;
+  color: #fff;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+#wrapper .content-area #post-2 .post-entry .entry-content a.wiecej:hover {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+}
+/*--------------------------------------------------------------
+3.1.2 - Strona Główna / Start / Współpracujemy
+--------------------------------------------------------------*/
+.wspolpracujemy {
+  border-top: 2px solid #707070;
+  border-bottom: 2px solid #707070;
+  margin: 2px auto;
+}
+.wspolpracujemy h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1.2em;
+  margin: 25px 0px;
+  display: block;
+}
+.wspolpracujemy #colophon-widget {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+  margin-bottom: 30px;
+}
+.wspolpracujemy #colophon-widget .colophon-widget {
+  display: block;
+  float: left;
+  width: 25%;
+}
+.wspolpracujemy #colophon-widget .widget-wrapper {
+  padding: 0px;
+}
+/*--------------------------------------------------------------
+3.1.2 - Podstrony / Usługi
+--------------------------------------------------------------*/
+body.page-template-default #wrapper .content-area .site-main .breadcrumb-list {
+  display: none;
+}
+body.page-template-default #wrapper .content-area .site-main article .entry-header h1.post-title {
+  text-align: center;
+  margin: 70px 0px;
+  font-size: 2.2em;
+  color: #b60105;
+  text-transform: uppercase;
+}
+body.page-template-default #wrapper .content-area .site-main article .post-entry h2 {
+  margin-left: 2.6em;
+}
+body.page-template-default #wrapper .content-area .site-main article .post-entry img.piaskowanie {
+  max-width: 150px;
+  float: right;
+  margin-left: 50px;
+  border: 3px solid #a00000;
+  padding: 20px;
+  margin-bottom: 3em;
+  margin-right: 5em;
+  background: #fff;
+}
+body.page-template-default #wrapper .content-area .site-main article .post-entry img.wulkanizacja {
+  border: 3px solid #a00000;
+  padding: 20px;
+  margin-bottom: 3em;
+  margin-right: 5em;
+  background: #fff;
+}
+body.page-template-default #wrapper .content-area .site-main article .post-entry img.piaskowanie-2 {
+  max-width: 100px;
+  background: #fff;
+}
+body.page-template-default #wrapper .content-area .site-main article .post-entry .obrazek {
+  display: block;
+}
+body.page-template-default #wrapper .content-area .site-main article .post-entry .obrazek img.alignleft {
+  margin-bottom: 3em;
+  margin-right: 5em;
+  /*margin-left: 5em;*/
+  border: 3px solid #a00000;
+}
+body.page-template-default #wrapper .content-area .site-main article .post-entry .obrazek img.alignright {
+  margin-bottom: 3em;
+  margin-left: 5em;
+  /*margin-right: 5em;*/
+  border: 3px solid #a00000;
+}
+body.page-template-default #wrapper .content-area .site-main article .post-entry .obrazek img.aligncenter {
+  border: 3px solid #a00000;
+}
+body.page-template-default #wrapper .content-area .site-main article .post-entry .tekst {
+  display: block;
+  font-size: 1.15em;
+  text-align: justify;
+  color: #000000;
+}
+body.page-template-default #wrapper .content-area .site-main article .post-entry .tekst p {
+  margin-bottom: 10px;
+  line-height: 1.5em;
+}
+body.page-template-default #wrapper .content-area .site-main article .post-entry .tekst p.duze {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+body.page-template-default #wrapper .content-area .site-main article .post-entry .tekst ul {
+  list-style-position: inside;
+}
+body.page-template-default #wrapper .content-area .site-main article .post-entry .tekst ul li {
+  position: relative;
+  list-style: none;
+  /*padding-left: 10px;*/
+  left: 40px;
+}
+body.page-template-default #wrapper .content-area .site-main article .post-entry .obrazek-lewa {
+  margin-right: 5%;
+}
+body.page-template-default #wrapper .content-area .site-main article .post-entry .obrazek-prawa {
+  margin-left: 5%;
+}
+body.page-template-default #wrapper .content-area .site-main article .post-entry .tekst-lewa p {
+  /*margin-left: 5em;*/
+}
+body.page-template-default #wrapper .content-area .site-main article .post-entry .tekst-prawa p {
+  /*margin-right: 5em;*/
+}
+body.page-template-default #wrapper .content-area .site-main article .post-entry .tekst-justify p {
+  /*	margin-left: 5em;
+							margin-right: 5em;*/
+}
+/*--------------------------------------------------------------
+3.1.3 - Podstrony / Kontakt
+--------------------------------------------------------------*/
+body.page-id-10 .post-entry h2 {
+  font-weight: 600;
+  display: block;
+  width: 409px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  border-bottom: 3px solid #A00000;
+  margin-bottom: 25px;
+  margin-left: 0px !important;
+}
+body.page-id-10 .post-entry h2 .kolor-czarny {
+  color: #2894892;
+}
+body.page-id-10 .post-entry h2 .kolor-czerwony {
+  color: #E31E25;
+}
+body.page-id-10 .post-entry .dane-kontaktowe {
+  /*margin-left: 5.6em;*/
+  float: left;
+  width: 35%;
+  padding: 25px;
+  background: #fff;
+  border-radius: 4px;
+  border-bottom: 3px solid #A00000;
+  font-weight: 300;
+}
+body.page-id-10 .post-entry .dane-kontaktowe a {
+  color: #2A2C29;
+  border-bottom: solid 1px transparent;
+  -webkit-transition: color 0.2s ease-out, border-bottom-color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out, border-bottom-color 0.2s ease-out;
+  -ms-transition: color 0.2s ease-out, border-bottom-color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out, border-bottom-color 0.2s ease-out;
+  transition: color 0.2s ease-out, border-bottom-color 0.2s ease-out;
+}
+body.page-id-10 .post-entry .dane-kontaktowe a:hover {
+  border-bottom: solid 1px #fff;
+}
+body.page-id-10 .post-entry .dane-kontaktowe .kontakt-telefon:before {
+  content: "\f095";
+  font-size: 1.6em;
+  font-family: FontAwesome;
+  color: #E1E1E1;
+  padding-left: 5px;
+  padding-right: 30px;
+}
+body.page-id-10 .post-entry .dane-kontaktowe .kontakt-mail:before {
+  content: "\f0e0";
+  font-size: 1.6em;
+  font-family: FontAwesome;
+  color: #E1E1E1;
+  padding-left: 5px;
+  padding-right: 25px;
+}
+body.page-id-10 .post-entry .dane-kontaktowe .kontakt-adres:before {
+  content: "\f124";
+  font-size: 1.6em;
+  font-family: FontAwesome;
+  color: #E1E1E1;
+  padding-left: 5px;
+  padding-right: 30px;
+}
+body.page-id-10 .post-entry .dane-kontaktowe .kontakt-otwarte:before {
+  content: "\f058";
+  font-size: 1.6em;
+  font-family: FontAwesome;
+  color: #E1E1E1;
+  padding-left: 5px;
+  padding-right: 25px;
+}
+body.page-id-10 .post-entry .dane-kontaktowe h3 {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+body.page-id-10 .post-entry .mapa #wpgmza_map {
+  background: #fff;
+  border-bottom: 3px solid #A00000;
+  border-radius: 3px;
+  height: 307px !important;
+}
+/*--------------------------------------------------------------
+3.1.3 - Podstrony / Realizacje
+--------------------------------------------------------------*/
+body.page-id-8 .post-entry #envira-gallery-wrap-80 #envira-gallery-80 .envira-gallery-item-inner {
+  border: 1px solid #A00000;
+}
+/*--------------------------------------------------------------
+4.1 - Stopka
+--------------------------------------------------------------*/
+#footer {
+  padding: 0px;
+  background-image: url(images/footer-bg.jpg);
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-size: cover;
+  min-height: 531px;
+  margin-right: auto;
+  margin-left: auto;
+  /* padding-left: 15px;
+    padding-right: 15px;*/
+  margin-top: 0px;
+  padding-top: 0px;
+  background-color: #252525;
+  color: #fff;
+}
+#footer #footer-wrapper {
+  /*--------------------------------------------------------------
+4.3 - Stopka / Copyright i Realizacja
+--------------------------------------------------------------*/
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget {
+  /*--------------------------------------------------------------
+4.2 - Stopka / Box Kontakt
+--------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+4.2 - Stopka / Box Formularz
+--------------------------------------------------------------*/
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget .footer-widget {
+  width: 49%;
+  margin-top: 6%;
+  padding-left: 0px;
+  padding-right: 0px;
+  border: 1px solid #c5c5c5;
+  min-height: 320px;
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget .footer-widget .widget-title h3 {
+  text-transform: uppercase;
+  font-size: 1.7em;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-8 {
+  text-align: center;
+  margin-right: 1%;
+  background-color: rgba(139, 12, 15, 0.7);
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-8 .textwidget {
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-8 .textwidget .telefon {
+  font-size: 2em;
+  font-weight: 600;
+  display: block;
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-8 .textwidget .dane-adresowe {
+  font-size: 1.6em;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-8 .textwidget .e-mail a {
+  font-size: 1.6em;
+  line-height: 1.5em;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: solid 1px transparent;
+  -webkit-transition: color 0.2s ease-out, border-bottom-color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out, border-bottom-color 0.2s ease-out;
+  -ms-transition: color 0.2s ease-out, border-bottom-color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out, border-bottom-color 0.2s ease-out;
+  transition: color 0.2s ease-out, border-bottom-color 0.2s ease-out;
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-8 .textwidget .e-mail a:hover {
+  /*text-decoration: underline;*/
+  border-bottom: solid 1px #fff;
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-9 {
+  margin-left: 1%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-9 .textwidget {
+  text-align: center;
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-9 .textwidget .wpcf7 label {
+  width: 450px;
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-9 .textwidget .wpcf7 label span input {
+  border: 0px;
+  -webkit-box-shadow: 0px 0px 0px 0px #000000;
+  -moz-box-shadow: 0px 0px 0px 0px #000000;
+  box-shadow: 0px 0px 0px 0px #000000;
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-9 .textwidget .wpcf7 label span input::-webkit-input-placeholder,
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-9 .textwidget .wpcf7 label span textarea::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-weight: 400;
+  color: #363636;
+  opacity: .7;
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-9 .textwidget .wpcf7 label span input::-moz-placeholder,
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-9 .textwidget .wpcf7 label span textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  font-weight: 400;
+  color: #363636;
+  opacity: .7;
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-9 .textwidget .wpcf7 label span input:-ms-input-placeholder,
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-9 .textwidget .wpcf7 label span textarea:-ms-input-placeholder {
+  /* IE 10+ */
+  font-weight: 400;
+  color: #363636;
+  opacity: .7;
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-9 .textwidget .wpcf7 label span input:-moz-placeholder,
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-9 .textwidget .wpcf7 label span textarea:-moz-placeholder {
+  /* Firefox 18- */
+  font-weight: 400;
+  color: #363636;
+  opacity: .7;
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-9 .textwidget .wpcf7 label span textarea {
+  border: 0px;
+  -webkit-box-shadow: 0px 0px 0px 0px #000000;
+  -moz-box-shadow: 0px 0px 0px 0px #000000;
+  box-shadow: 0px 0px 0px 0px #000000;
+  height: 108px;
+  color: #555555;
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-9 .textwidget .wpcf7 input.wpcf7-submit {
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  border-radius: 0;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #b60105;
+  border-color: #b60105;
+  margin: 0px 62px 10px;
+  float: left;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+  -webkit-transition: border-color 0.5s ease-out;
+  -moz-transition: border-color 0.5s ease-out;
+  -o-transition: border-color 0.5s ease-out;
+  transition: border-color 0.5s ease-out;
+}
+#footer #footer-wrapper #footer-widgets-container #footer-widget #text-9 .textwidget .wpcf7 input.wpcf7-submit:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+}
+#footer #footer-wrapper #footer-base {
+  margin-left: -30px;
+  margin-right: -30px;
+}
+#footer #footer-wrapper #footer-base .copyright,
+#footer #footer-wrapper #footer-base .powered,
+#footer #footer-wrapper #footer-base .scroll-top {
+  color: #adacac;
+  font-size: 1.2em;
+}
+#footer #footer-wrapper #footer-base .copyright a,
+#footer #footer-wrapper #footer-base .powered a,
+#footer #footer-wrapper #footer-base .scroll-top a {
+  color: #adacac;
+  border-bottom: solid 1px transparent;
+  -webkit-transition: color 0.2s ease-out, border-bottom-color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out, border-bottom-color 0.2s ease-out;
+  -ms-transition: color 0.2s ease-out, border-bottom-color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out, border-bottom-color 0.2s ease-out;
+  transition: color 0.2s ease-out, border-bottom-color 0.2s ease-out;
+}
+#footer #footer-wrapper #footer-base .copyright a:hover,
+#footer #footer-wrapper #footer-base .powered a:hover,
+#footer #footer-wrapper #footer-base .scroll-top a:hover {
+  text-decoration: none;
+  border-bottom: solid 1px #adacac;
+}
+/*--------------------------------------------------------------
+4.4 - Cookie Alert
+--------------------------------------------------------------*/
+#catapult-cookie-bar {
+  border-top: 2px solid;
+  font-family: 'Open Sans', sans-serif;
+}
+/*--------------------------------------------------------------
+5.1 - RWD / Header
+--------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+  #header .container .header-row #site-branding {
+    padding: 0px;
+  }
+  #header #main-menu-container {
+    padding: 0px;
+  }
+  #header #main-menu-container #main-menu #main-navigation .main-nav {
+    margin-top: 44px;
+    position: relative;
+    z-index: 1000;
+    background: #212121;
+  }
+  #header #main-menu-container #main-menu #main-navigation .main-nav > ul {
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  #header #main-menu-container #main-menu #main-navigation .main-nav ul li.menu-item-has-children:hover ul.sub-menu {
+    display: block;
+    color: #fff;
+  }
+  #header #main-menu-container #main-menu #main-navigation .main-nav ul li a:hover ~ ul.sub-menu {
+    color: #fff;
+    background-color: #B60105;
+    display: block;
+    width: 100%;
+  }
+  #header #main-menu-container #main-menu #main-navigation .main-nav ul.sub-menu {
+    display: block;
+    /*bylo display: none;*/
+    text-align: center;
+    text-transform: uppercase;
+    position: static;
+    top: 0px;
+    font-size: 10px;
+    -webkit-transition: height .2s;
+    -moz-transition: height .2s;
+    -o-transition: height .2s;
+    transition: height .2s;
+    width: 100%;
+    overflow: hidden;
+    line-height: 20px;
+    margin-left: 0px;
+    background: #B60105;
+  }
+  #header #main-menu-container #main-menu #main-navigation .main-nav ul.sub-menu li {
+    float: left;
+    display: block;
+  }
+  #header #main-menu-container #main-menu #main-navigation .main-nav ul.sub-menu li a {
+    color: #fff;
+  }
+  #header #main-menu-container #main-menu #main-navigation .main-nav ul.sub-menu li a:hover {
+    color: #fff;
+  }
+  #header #main-menu-container #main-menu #main-navigation .main-nav ul li > ul li#menu-item-26 a::before,
+  #header #main-menu-container #main-menu #main-navigation .main-nav ul li > ul li#menu-item-25 a::before,
+  #header #main-menu-container #main-menu #main-navigation .main-nav ul li > ul li#menu-item-24 a::before,
+  #header #main-menu-container #main-menu #main-navigation .main-nav ul li > ul li#menu-item-23 a::before {
+    display: none;
+  }
+  #header #main-menu-container #main-menu #main-navigation .main-nav ul li > ul li {
+    width: 45%;
+  }
+  #header #main-menu-container #main-menu #main-navigation .main-nav ul li > ul li#menu-item-25 {
+    float: left;
+  }
+  #header #main-menu-container #main-menu #main-navigation .main-nav ul li > ul li a {
+    line-height: 1.2em;
+  }
+  .pasek-dol {
+    position: relative;
+    height: 0px;
+    top: -1px;
+  }
+  #mobile-nav-button {
+    font-size: 2em;
+    background: #ffffff;
+    border: none;
+  }
+  #mobile-nav-button::before {
+    color: #b70307;
+  }
+  #mobile-current-item {
+    color: #fff;
+    font-size: 1.5em;
+    top: 5px;
+  }
+  #header .container .header-row #site-branding {
+    border-bottom: 2px solid #b70307;
+  }
+}
+/*--------------------------------------------------------------
+5.2 - RWD / Slider
+--------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+  .blok-slider {
+    display: none;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .blok-slider .metaslider .caption-wrap {
+    bottom: 300px;
+    left: 25%;
+    width: 450px;
+    text-align: center;
+    background: #af2e2d;
+    border: 3px solid #4e5b65;
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+}
+/*--------------------------------------------------------------
+5.3 - RWD / Boxy + Współpracujemy
+--------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+  body.page-template-default #wrapper .content-area .site-main article .post-entry img.piaskowanie {
+    width: 100%;
+    display: block;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 {
+    min-width: 100%;
+  }
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li {
+    width: 90%;
+    display: block;
+    float: left;
+  }
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-2 .textwidget a::before,
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-3 .textwidget a::before,
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-6 .textwidget a::before,
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-7 .textwidget a::before {
+    display: block;
+    float: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-2,
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-7,
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-6,
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-3 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li .textwidget a {
+    text-align: center;
+    padding: 30px 50px;
+    font-size: 1.6em;
+  }
+  #wrapper .content-area #post-2 .post-entry .entry-content p {
+    padding: 0px 20px;
+  }
+  .wspolpracujemy #colophon-widget .colophon-widget {
+    width: 90%;
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #wrapper .content-area #post-2 .post-entry .entry-content p {
+    padding: 0px 20px;
+  }
+  .wspolpracujemy #colophon-widget {
+    /*margin-left: auto;
+    margin-right: auto;*/
+    max-width: 100%;
+    /*margin-bottom: 30px;*/
+  }
+  .wspolpracujemy #colophon-widget .colophon-widget {
+    display: block;
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 {
+    min-width: 100%;
+  }
+  /*#wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li {
+		width: 90%;
+		display: block;
+		float: left;
+		}
+*/
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-2,
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-7,
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-6,
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-3 {
+    width: 46%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li {
+    min-height: 130px;
+  }
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li .textwidget a {
+    text-align: center;
+    padding: 30px 30px;
+    font-size: 1.29em;
+  }
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-2 .textwidget a:before {
+    background-image: url(images/lakiernia-proszkowa.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    display: inline-block;
+    width: 59px;
+    height: 61px;
+    content: "";
+    float: left;
+    margin-right: 30px;
+  }
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-6 .textwidget a:before {
+    background-image: url(images/renowacja-felg.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    display: inline-block;
+    width: 61px;
+    height: 63px;
+    content: "";
+    float: left;
+    margin-right: 30px;
+  }
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-7 .textwidget a:before {
+    background-image: url(images/piaskowanie-szkielkowanie.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    display: inline-block;
+    width: 84px;
+    height: 78px;
+    content: "";
+    float: left;
+    margin-right: 30px;
+  }
+  #wrapper .content-area #main #post-2 .post-entry .entry-content .wop_tiny1 ul li#text-3 .textwidget a:before {
+    background-image: url(images/uslugi-wulkanizacyjne.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    display: inline-block;
+    width: 66px;
+    height: 52px;
+    content: "";
+    float: left;
+    margin-right: 30px;
+  }
+}
+/*--------------------------------------------------------------
+5.3 - RWD / Content
+--------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+  body.page-template-default #wrapper .content-area .site-main article .post-entry .obrazek img.alignleft,
+  body.page-template-default #wrapper .content-area .site-main article .post-entry .obrazek img.alignright,
+  body.page-template-default #wrapper .content-area .site-main article .post-entry .obrazek img.aligncenter {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    width: 90%;
+  }
+  body.page-template-default #wrapper .content-area .site-main article .post-entry .tekst-prawa p,
+  body.page-template-default #wrapper .content-area .site-main article .post-entry .tekst-lewa p,
+  body.page-template-default #wrapper .content-area .site-main article .post-entry .tekst-justify p {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    width: 90%;
+  }
+  body.page-template-default #wrapper .content-area .site-main article .entry-header h1.post-title {
+    font-size: 1.8em;
+  }
+  body.page-template-default #wrapper .content-area .site-main article .post-entry h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+  body.page-template-default #wrapper .content-area .site-main article .post-entry .tekst ul li {
+    position: static;
+  }
+  body.page .post-entry {
+    width: 94%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  body.page-template-default #wrapper .content-area .site-main article .post-entry img.wulkanizacja {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  body.page-id-10 .post-entry h2 {
+    width: 90%;
+    margin-left: 5% !important;
+    margin-right: 5%;
+  }
+  body.page-id-10 .post-entry .dane-kontaktowe {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  body.page-id-10 .post-entry #wpgmza_map {
+    width: 90% !important;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+  }
+}
+/*--------------------------------------------------------------
+5.5 - RWD / Stopka
+--------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+  #footer {
+    background-image: none;
+    background-color: #252525;
+    min-height: 100%;
+  }
+  #footer #footer-wrapper #footer-widgets-container #footer-widget .footer-widget {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    min-height: 100%;
+  }
+  #footer #footer-wrapper #footer-widgets-container #footer-widget #text-9 {
+    display: none;
+  }
+  #footer-base {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #footer #footer-wrapper #footer-widgets-container #footer-widget #text-8,
+  #footer #footer-wrapper #footer-widgets-container #footer-widget #text-9 {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  #footer #footer-wrapper #footer-widgets-container #footer-widget #text-9 .textwidget .wpcf7 label {
+    width: 90%;
+  }
+}
